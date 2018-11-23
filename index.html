@@ -106,7 +106,7 @@
             if (cities.value !== "") {
                 cityListInput.innerHTML = "";
 
-                var url = `https://github.com/WilsonLawler/local_postcode/jsons/${cities.value}.json`;
+                var url = `https://works.ioa.tw/weather/api/cates/${cities.value}.json`;
 
                 fetch(url, {
                     method: "GET"
